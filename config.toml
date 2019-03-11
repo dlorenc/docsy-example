@@ -1,5 +1,5 @@
 baseURL = ""
-title = "Docsy Example"
+title = "Tekton CD"
 
 enableRobotsTXT = true
 
@@ -56,29 +56,18 @@ id = "UA-00000000-0"
 
 [languages]
 [languages.en]
-title = "Docsy"
-description = "Docsy does docs"
+title = "Tekton"
+description = "Tekton CD"
 languageName ="English"
 # Weight used for sorting.
 weight = 1
-[languages.no]
-title = "Docsy"
-description = "Docsy er operativsystem for skyen"
-languageName ="Norsk"
-contentDir = "content/no"
-time_format_default = "02.01.2006"
-time_format_blog = "02.01.2006"
-
 
 # Everything below this are Site Params
 
 [params]
-copyright = "Global Inc"
+copyright = "Linux Foundation"
 privacy_policy = "https://policies.google.com/privacy"
-github_repo = "https://github.com/google/docsy-example"
-
-# Google Custom Search Engine ID. Remove or comment out to disable search.
-gcs_engine_id = "011737558837375720776:fsdu1nryfng"
+github_repo = "https://github.com/tektoncd/pipeline"
 
 # User interface configuration
 [params.ui]
@@ -117,17 +106,17 @@ no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
 	name = "GitHub"
-	url = "https://github.com/google/docsy"
+	url = "https://github.com/tektoncd/pipeline"
 	icon = "fab fa-github"
         desc = "Development takes place here!"
 [[params.links.developer]]
 	name = "Slack"
-	url = "https://example.org/slack"
+	url = "https://knative.slack.com/build-pipeline"
 	icon = "fab fa-slack"
         desc = "Chat with other project developers"
 [[params.links.developer]]
 	name = "Developer mailing list"
-	url = "https://example.org/mail"
+	url = "https://groups.google.com/forum/#!forum/tekton-dev"
 	icon = "fa fa-envelope"
         desc = "Discuss development issues around the project"
 
